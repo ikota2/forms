@@ -1,0 +1,59 @@
+/* TODO */
+
+/* 
+добавить шрифт лато нормал
+и установить фонт вейт тут на нормал,
+
+стрелки вместе svg поставить css 
+*/
+.bottomButtons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f2f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: LatoLight;
+  font-weight: normal;
+  padding: 20px 24px 26px 24px;
+}
+
+.bottomButtons__button {
+  padding: 60px 20px;
+  background-color: #f1f2f4;
+}
+
+.bottomButtons__button {
+  background-color: #fff;
+  color: #0468ff;
+  border-color: transparent;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.bottomButtons__button:hover {
+  background-color: #0468ff;
+  color: #f1f2f4;
+}
+
+.bottomButtons__button_prev {
+  padding: 9px 32px;
+  background-image: url("./left-arrow.svg");
+  background-position: left;
+  background-position-x: 10px;
+}
+
+.bottomButtons__button_next {
+  padding: 10px 50px 10px 10px;
+  background-image: url("./right-arrow.svg");
+  background-position: right;
+  background-position-x: 70px;
+}
+
+.bottomButtons__submit {
+  padding: 10px 50px 10px 10px;
+  background-position: right;
+  background-position-x: 70px;
+}

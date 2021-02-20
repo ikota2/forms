@@ -1,0 +1,64 @@
+.income__radioblock {
+  position: relative;
+  margin: 32px 0;
+  display: flex;
+  height: 48px;
+  overflow: hidden;
+}
+
+.income__radioblock__input {
+  display: none;
+}
+
+.income__radioblock::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4px;
+  bottom: 4px;
+  background-color: #f1f2f4;
+  border-radius: 4px;
+}
+
+.income__radioblock::after {
+  content: '';
+  background-color: #0468FF;
+  position: absolute;
+  width: var(--width);
+  display: block;
+  left: var(--offset);
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 4px;
+  transition: left 2s ease-in-out;
+}
+
+.income__radioblock_checked::after {
+  /* background-color: green; */
+}
+
+
+.income__radioblock__label {
+  line-height: 48px;
+  z-index: 2;
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.income__radioblock__label_selected {
+  color: #fff;
+}
+
+.income__p {
+  margin: 0 17px;
+  border-radius: 4px;
+  padding: 7px 34px;
+  background-color: rgba(21, 34, 66, 0.06);
+  font-family: LatoLight;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}

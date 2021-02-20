@@ -1,0 +1,8 @@
+.resume__descriptionAndTitle {
+  padding: 3px;
+}
+
+.resume__descriptionAndTitle_description,
+.resume__descriptionAndTitle_title {
+  margin: 0 3px;
+}

@@ -1,0 +1,61 @@
+.banks {
+  margin: 0 -16px;
+}
+
+.banks__label {
+  height: 48px;
+  display: block;
+  font-size: 16px;
+  line-height: 48px;
+  padding-left: 58px;
+  background: var(--cardBackground) no-repeat left 15px center;
+  cursor: pointer;
+}
+
+.banks__label[for="sber"] {
+  --cardBackground: url('img/sber.svg');
+}
+.banks__label[for="vtb"] {
+  --cardBackground: url('img/vtb.svg');
+}
+.banks__label[for="alfabank"] {
+  --cardBackground: url('img/alfabank.svg');
+}
+.banks__label[for="rayffaysen"] {
+  --cardBackground: url('img/rayffaysen.svg');
+}
+.banks__label[for="gazprom"] {
+  --cardBackground: url('img/gazprom.svg');
+}
+.banks__label[for="otkrytie"] {
+  --cardBackground: url('img/otkrytie.svg');
+}
+.banks__label[for="rosbank"] {
+  --cardBackground: url('img/rosbank.svg');
+}
+.banks__label[for="rosselhozbank"] {
+  --cardBackground: url('img/rosselhozbank.svg');
+}
+.banks__label[for="unikredit"] {
+  --cardBackground: url('img/unikredit.svg');
+}
+.banks__label[for="promsviaz"] {
+  --cardBackground: url('img/promsviaz.svg');
+}
+.banks__label[for="drugoy"] {
+  --cardBackground: url('img/drugoy.svg');
+}
+.banks__label[for="nalichnie"] {
+  --cardBackground: url('img/nalichnie.svg');
+}
+
+.banks__input { 
+  display: none;
+} 
+
+.banks__input:checked + .banks__label {
+  border-radius: 4px;
+  background: var(--cardBackground) no-repeat left 15px center,
+              url('img/creditCard.svg') no-repeat right 15px center,
+              #F1F2F4;
+}

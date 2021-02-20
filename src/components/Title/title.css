@@ -1,0 +1,10 @@
+.title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: normal;
+}

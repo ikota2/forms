@@ -1,0 +1,31 @@
+.typeOfEmployment__container {
+  max-width: 375px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.typeOfEmployment__label {
+  height: 48px;
+  display: block;
+  font-size: 16px;
+  line-height: 48px;
+  padding-left: 16px;
+  background: url('notAccepted.svg') no-repeat right 15px center;
+  cursor: pointer;
+}
+
+.typesOfEmployment__input {
+  display: none;
+}
+
+.typesOfEmployment__input:checked + .typeOfEmployment__label {
+  border-radius: 4px;
+  background: url('accepted.svg') no-repeat right 15px center,
+              url('notAccepted.svg') no-repeat right 15px center,
+              #F1F2F4;
+
+}
+
+
+  

@@ -1,0 +1,9 @@
+.incomePerMonth__container {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  padding: 0 16px 14px 16px;
+}
+
+.incomePerMonth__p {
+  font-size: 14px;
+}
