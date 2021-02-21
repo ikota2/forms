@@ -5,6 +5,7 @@ import { Link } from "../Link/Link";
 import "./previousNextBtns.css";
 import { checkField } from "../../functions/checkField";
 import { fieldsAndValidation } from "../../functions/validate";
+import { findByLabelText } from "@testing-library/react";
 
 function PreviousNextBtns({ location, data }) {
   const activeStyle = {
@@ -78,48 +79,20 @@ function PreviousNextBtns({ location, data }) {
   if (currentLocationIndex === 0) {
     return (
       <div className='bottomButtons'>
-        <Link
-          to={nextLink}
-          className='bottomButtons__button bottomButtons__button_next'
-          disabled={!isValid}
-        >
-          Далее
-        </Link>
-      </div>
-    );
-  } else if (location.pathname === "/resume") {
-    return (
-      <div className='bottomButtons'>
-        <Link
-          to={previousLink}
-          className='bottomButtons__button bottomButtons__button_prev'
-        >
-          Назад
-        </Link>
-        <button className='bottomButtons__button bottomButtons__submit'>
-          ok
-        </button>
-      </div>
-    );
-  } else {
-    return (
-      <div className='bottomButtons'>
-        <Link
-          to={previousLink}
-          className='bottomButtons__button bottomButtons__button_prev'
-        >
-          Назад
-        </Link>
-        <Link
-          to={nextLink}
-          className='bottomButtons__button bottomButtons__button_next'
-          disabled={!isValid}
-        >
+        <Link to={nextLink} disabled={!isValid}>
           Далее
         </Link>
       </div>
     );
   }
+  return (
+    <div className='bottomButtons'>
+      <Link to={previousLink}>Назад</Link>
+      <Link to={nextLink} disabled={!isValid}>
+        Далее
+      </Link>
+    </div>
+  );
 }
 
 function mapStateToProps(state) {

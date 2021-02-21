@@ -1,0 +1,15 @@
+.link__invalid {
+  display: none;
+}
+
+.link__valid {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.link__valid:hover {
+  background-color: lavender;
+}
