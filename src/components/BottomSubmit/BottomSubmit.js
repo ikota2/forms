@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "../Link/Link";
-//import "../PreviousNextBtns/previousNextBtns.css";
 import "./bottomSubmit.css";
 
 export function BottomSubmit() {

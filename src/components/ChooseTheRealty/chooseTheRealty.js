@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import "./chooseTheRealty.css";
-import Title from "../Title/title";
-import { Input } from "../Input/input";
+import Title from "../Title/Title";
+import { Input } from "../Input/Input";
 import { ReactComponent as NewBuildings } from "./img/newBuildings.svg";
 import { ReactComponent as SecondBuildings } from "./img/secondBuildings.svg";
 import { ReactComponent as DontKnow } from "./img/dontKnow.svg";
@@ -60,7 +60,7 @@ function ChooseTheRealty_({
     changeCostOfRealty(formattedDigits);
   }
   return (
-    <React.Fragment>
+    <>
       <Title title='Какую недвижимость вы хотите приобрести?' />
 
       <div className='chooseTheRealtyContainer'>
@@ -99,6 +99,6 @@ function ChooseTheRealty_({
         label='Примерная стоимость недвижимости'
         onChange={handleChangeCostOfRealty}
       />
-    </React.Fragment>
+    </>
   );
 }

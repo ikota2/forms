@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import "./whatIsYourName.css";
-import Title from "../Title/title";
-import { Input } from "../Input/input";
+import Title from "../Title/Title";
+import { Input } from "../Input/Input";
 
 function mapStateToProps(state) {
   return {
@@ -17,7 +17,7 @@ function mapDispatchToProps(dispatch) {
       dispatch({ type: "CHANGE_DATA", field, value }),
   };
 }
-//35 строка филд это название поля, а вэлью это е.таргет.вэлью
+
 export const WhatIsYourName = connect(
   mapStateToProps,
   mapDispatchToProps

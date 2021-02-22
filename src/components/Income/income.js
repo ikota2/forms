@@ -1,8 +1,8 @@
 import React from "react";
-import Title from "../Title/title";
+import Title from "../Title/Title";
 import "./income.css";
-import { Tabs } from "../Tabs/tabs";
-import { IncomePerMonth } from "../IncomePerMonth/incomePerMonth";
+import { Tabs } from "../Tabs/Tabs";
+import { IncomePerMonth } from "../IncomePerMonth/IncomePerMonth";
 
 export const incomeTypeOptions = [
   {

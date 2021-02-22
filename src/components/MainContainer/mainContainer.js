@@ -1,5 +1,5 @@
 import React from "react";
-import PreviousNextBtns from "../PreviousNextBtns/previousNextBtns";
+import PreviousNextBtns from "../PreviousNextBtns/PreviousNextBtns";
 
 export function Container({ children }) {
   return (

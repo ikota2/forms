@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import Title from "../Title/title";
+import Title from "../Title/Title";
 
 function mapStateToProps(state) {
   return {
@@ -21,14 +21,12 @@ export const EmailConfirming = connect(
   mapDispatchToProps
 )(EmailConfirming_);
 function EmailConfirming_({ name, eMail, changeData }) {
-  // const [email, setEmail] = useState("");
-
   function handleChange(event) {
     changeData(event.target.value.toLowerCase());
   }
 
   return (
-    <React.Fragment>
+    <>
       <Title
         title={`${
           name.charAt(0).toUpperCase() + name.slice(1)
@@ -44,6 +42,6 @@ function EmailConfirming_({ name, eMail, changeData }) {
         value={eMail}
         required
       />
-    </React.Fragment>
+    </>
   );
 }
