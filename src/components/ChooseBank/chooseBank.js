@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
+import Title from "../Title/Title";
 import "./chooseBank.css";
-import Title from "../Title/title";
 
 export const banks = [
   {
@@ -70,7 +70,7 @@ export const ChooseBank = connect(
 )(ChooseBank_);
 function ChooseBank_({ value, onChange }) {
   return (
-    <React.Fragment>
+    <>
       <Title title='На карту какого банка получаете зарплату?' />
       <div className='banks'>
         {banks.map((bank) => (
@@ -90,6 +90,6 @@ function ChooseBank_({ value, onChange }) {
           </>
         ))}
       </div>
-    </React.Fragment>
+    </>
   );
 }

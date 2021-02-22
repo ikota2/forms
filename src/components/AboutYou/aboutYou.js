@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
-import Title from "../Title/title";
-import { Tabs } from "../Tabs/tabs";
-import { Input } from "../Input/input";
+import Title from "../Title/Title";
+import { Tabs } from "../Tabs/Tabs";
+import { Input } from "../Input/Input";
 
 export const gender = [
   {

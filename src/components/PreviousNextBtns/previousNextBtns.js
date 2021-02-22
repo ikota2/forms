@@ -5,17 +5,8 @@ import { Link } from "../Link/Link";
 import "./previousNextBtns.css";
 import { checkField } from "../../functions/checkField";
 import { fieldsAndValidation } from "../../functions/validate";
-import { findByLabelText } from "@testing-library/react";
 
 function PreviousNextBtns({ location, data }) {
-  const activeStyle = {
-    backgroundColor: "rgb(39, 219, 39)",
-    color: "#fff",
-  };
-  const disabledStyle = {
-    backgroundColor: "red",
-    color: "white",
-  };
   // function makeArrOfFunctions(obj, arr) {
   //   const functions = [];
   //   for (let link of arr) {
@@ -37,9 +28,6 @@ function PreviousNextBtns({ location, data }) {
   //    return booleans.every((boolean) => boolean);
   //  }
 
-  console.log("🗽", checkField(location.pathname));
-  const v = checkField(location.pathname)[0];
-  console.log("✈️", fieldsAndValidation[v]);
   const isValid = checkField(location.pathname).every((key) =>
     fieldsAndValidation[key](data[key])
   );
@@ -69,12 +57,6 @@ function PreviousNextBtns({ location, data }) {
     links[
       currentLocationIndex === 0 ? links.length - 1 : currentLocationIndex - 1
     ];
-
-  // const indexOfLastLink = function getLastIndex(links) {
-  //   for (let i = links.length; i--; ) {
-  //     return i;
-  //   }
-  // };
 
   if (currentLocationIndex === 0) {
     return (

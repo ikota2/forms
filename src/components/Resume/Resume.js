@@ -1,10 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
-import { typesOfEmployment } from "../TypeOfEmployment/typeOfEmployment";
-import { banks } from "../ChooseBank/chooseBank";
-import { gender } from "../AboutYou/aboutYou";
-import { incomeTypeOptions } from "../Income/income";
-import { realty } from "../ChooseTheRealty/chooseTheRealty";
+import { typesOfEmployment } from "../TypeOfEmployment/TypeOfEmployment";
+import { banks } from "../ChooseBank/ChooseBank";
+import { gender } from "../AboutYou/AboutYou";
+import { incomeTypeOptions } from "../Income/Income";
+import { realty } from "../ChooseTheRealty/ChooseTheRealty";
 import { BottomSubmit } from "../BottomSubmit/BottomSubmit";
 import "./resume.css";
 
@@ -81,7 +81,7 @@ export function Resume_({
           Место рождения:
         </span>
         <span className='resume__descriptionAndTitle_title'>
-          {placeOfBirth}
+          {placeOfBirth.charAt(0).toUpperCase() + placeOfBirth.slice(1)}
         </span>
       </div>
       <div className='resume__descriptionAndTitle'>

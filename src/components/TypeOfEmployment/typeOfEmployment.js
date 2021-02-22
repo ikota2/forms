@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import "./typeOfEmployment.css";
-import Title from "../Title/title";
+import Title from "../Title/Title";
 
 export const typesOfEmployment = [
   {
