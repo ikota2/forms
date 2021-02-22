@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/forms/static/css/main.8d5158fd.chunk.css",
+    "main.js": "/forms/static/js/main.0716fbeb.chunk.js",
+    "main.js.map": "/forms/static/js/main.0716fbeb.chunk.js.map",
+    "runtime-main.js": "/forms/static/js/runtime-main.13061819.js",
+    "runtime-main.js.map": "/forms/static/js/runtime-main.13061819.js.map",
+    "static/js/2.811442c8.chunk.js": "/forms/static/js/2.811442c8.chunk.js",
+    "static/js/2.811442c8.chunk.js.map": "/forms/static/js/2.811442c8.chunk.js.map",
+    "index.html": "/forms/index.html",
+    "static/css/main.8d5158fd.chunk.css.map": "/forms/static/css/main.8d5158fd.chunk.css.map",
+    "static/js/2.811442c8.chunk.js.LICENSE.txt": "/forms/static/js/2.811442c8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/forms/static/media/LatoLight.ddc5018c.eot",
+    "static/media/typeOfEmployment.css": "/forms/static/media/notAccepted.bb192772.svg",
+    "static/media/chooseBank.css": "/forms/static/media/vtb.5002a585.svg",
+    "static/media/dontKnow.96108746.svg": "/forms/static/media/dontKnow.96108746.svg",
+    "static/media/header.css": "/forms/static/media/header-menu.c3d75847.svg",
+    "static/media/previousNextBtns.css": "/forms/static/media/right-arrow.bb55fb07.svg",
+    "static/media/newBuildings.103f0afd.svg": "/forms/static/media/newBuildings.103f0afd.svg",
+    "static/media/secondBuildings.84ad75c7.svg": "/forms/static/media/secondBuildings.84ad75c7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13061819.js",
+    "static/js/2.811442c8.chunk.js",
+    "static/css/main.8d5158fd.chunk.css",
+    "static/js/main.0716fbeb.chunk.js"
+  ]
+}
