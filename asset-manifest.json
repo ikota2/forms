@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/forms/static/css/main.90294408.chunk.css",
-    "main.js": "/forms/static/js/main.953b1133.chunk.js",
-    "main.js.map": "/forms/static/js/main.953b1133.chunk.js.map",
+    "main.css": "/forms/static/css/main.2c645c06.chunk.css",
+    "main.js": "/forms/static/js/main.c5936d9e.chunk.js",
+    "main.js.map": "/forms/static/js/main.c5936d9e.chunk.js.map",
     "runtime-main.js": "/forms/static/js/runtime-main.13061819.js",
     "runtime-main.js.map": "/forms/static/js/runtime-main.13061819.js.map",
     "static/js/2.811442c8.chunk.js": "/forms/static/js/2.811442c8.chunk.js",
     "static/js/2.811442c8.chunk.js.map": "/forms/static/js/2.811442c8.chunk.js.map",
     "index.html": "/forms/index.html",
-    "static/css/main.90294408.chunk.css.map": "/forms/static/css/main.90294408.chunk.css.map",
+    "static/css/main.2c645c06.chunk.css.map": "/forms/static/css/main.2c645c06.chunk.css.map",
     "static/js/2.811442c8.chunk.js.LICENSE.txt": "/forms/static/js/2.811442c8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/forms/static/media/LatoLight.ddc5018c.eot",
     "static/media/typeOfEmployment.css": "/forms/static/media/notAccepted.bb192772.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.13061819.js",
     "static/js/2.811442c8.chunk.js",
-    "static/css/main.90294408.chunk.css",
-    "static/js/main.953b1133.chunk.js"
+    "static/css/main.2c645c06.chunk.css",
+    "static/js/main.c5936d9e.chunk.js"
   ]
 }
