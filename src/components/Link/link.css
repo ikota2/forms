@@ -1,8 +1,4 @@
-.link__invalid {
-  display: none;
-}
-
-.link__valid {
+.link {
   text-decoration: none;
   padding: 10px;
   color: black;
@@ -10,6 +6,14 @@
   border-radius: 5px;
 }
 
+.link__invalid {
+  background-color: indianred;
+}
+
+.link__valid {
+  background-color: mediumaquamarine;
+}
+
 .link__valid:hover {
-  background-color: lavender;
+  background-color: #a8ecd5;
 }

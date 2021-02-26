@@ -17,7 +17,7 @@ import { Congrats } from "./components/Congrats/Congrats";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
 
         <Route exact path='/'>

@@ -4,10 +4,10 @@ import "./link.css";
 
 export function Link({ disabled, to, children }) {
   if (disabled) {
-    return <span className='link__invalid'>{children}</span>;
+    return <span className='link link__invalid'>{children}</span>;
   }
   return (
-    <RRLink to={to} className='link__valid'>
+    <RRLink to={to} className='link link__valid'>
       {children}
     </RRLink>
   );

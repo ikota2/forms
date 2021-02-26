@@ -2,11 +2,13 @@ import React from "react";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import { Link } from "../Link/Link";
-import "./previousNextBtns.css";
 import { checkField } from "../../functions/checkField";
 import { fieldsAndValidation } from "../../functions/validate";
+import "./previousNextBtns.css";
 
 function PreviousNextBtns({ location, data }) {
+  // the same as isValid:
+
   // function makeArrOfFunctions(obj, arr) {
   //   const functions = [];
   //   for (let link of arr) {
@@ -46,7 +48,7 @@ function PreviousNextBtns({ location, data }) {
   const currentLocationIndex = links.findIndex(
     (link) => link === location.pathname
   );
-  console.log("LOCATION ---->", location, currentLocationIndex);
+  //console.log("LOCATION ---->", location, currentLocationIndex);
 
   const nextLink =
     links[

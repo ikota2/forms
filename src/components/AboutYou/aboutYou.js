@@ -35,6 +35,7 @@ function AboutYou_({ changeData, dateOfBirth, placeOfBirth }) {
     <>
       <Title title='Расскажите о себе' />
       <Tabs options={gender} name='sex' />
+      <Title subtitle='Предполагается, что вы достигли совершеннолетия' />
       <Input
         name='dateOfBirth'
         type='date'
