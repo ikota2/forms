@@ -1,5 +1,6 @@
 import React from "react";
+import Title from "../Title/Title";
 
 export function Congrats() {
-  return <div className='congrats'>Поздравляю, это конец!</div>;
+  return <Title subtitle='Поздравляю, это конец!' />;
 }
